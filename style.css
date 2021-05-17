@@ -38,6 +38,7 @@ a:hover{
     float: left;
     width: 10%;
     margin-right: 5px;
+    background-image: url(images/loupe-1.jpg);
     
     
 }
@@ -56,7 +57,7 @@ a:hover{
     float: right;
     margin-left: 5px;
     width: 10%;
-    
+    background-image: url(images/loupe-1.jpg);
     
 }
 
@@ -80,6 +81,14 @@ a:hover{
     border-radius: 10px;
     color: cornsilk;
     padding: 1%;
+}
+
+#ContactForm{
+     background-color: rgb(51, 40, 82);
+}
+
+textarea{
+    resize: none;
 }
 
 #footer{
