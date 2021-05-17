@@ -4,6 +4,7 @@
        <link rel="stylesheet" href="style.css">
        <title>My first web page</title>
        <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+       <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
    </head>
    <body style="background-color: #c6d4df;">
 
@@ -42,12 +43,12 @@
 
     
 
-    <div id="content">
-        <h2>Если вы желаете со мной связаться</h2>
-        <p>Заполните форму и вероятно я отвечу вам по электронной почте</p>
-        <div class="web_form">
+    <div id="content" >
+        
+        <div class="web_form" style="margin: 2%;">
             <form id="ContactForm" method="POST">
                 <table >
+                    <caption>Форма для связи</caption>
                     <tr><td>Электронная почта</td></tr>
                     <tr><td><input name="email" type="text"></td></tr>
                     <tr><td>Имя</td></tr>
@@ -55,11 +56,12 @@
                     <tr><td>Тема</td></tr>
                     <tr><td><input name="topic" type="text"></td></tr>
                     <tr><td>Сообщение</td></tr>
-                    <tr><td><textarea name="message" cols="45" rows="10"></textarea></td></tr>
+                    <tr><td><textarea name="message" cols="44" rows="10"></textarea></td></tr>
                     <tr><td><button type="submit">Отправить</button></td></tr>
                 </table>
             </form>
         </div>
+        
         
         
     </div>
