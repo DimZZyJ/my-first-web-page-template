@@ -7,6 +7,29 @@ a:hover{
     text-decoration: underline;
 }
 
+input{
+    border-radius: 5px;
+    background-color: rgb(90, 83, 128);
+    color: ivory;
+}
+
+textarea{
+    resize: none;
+    background-color: rgb(90, 83, 128);
+    color: ivory;
+}
+
+
+button{
+    background-color: rgb(90, 83, 128);
+    border-radius: 5px;
+    color: ivory;
+}
+
+h2{
+    text-align: center;
+}
+
 #hat{
     padding: 1%;
     background-image: url(images/loupe-1.jpg);
@@ -85,11 +108,15 @@ a:hover{
 
 #ContactForm{
      background-color: rgb(51, 40, 82);
+     
 }
 
-textarea{
-    resize: none;
+.web_form{
+    
+    width: 342px;
+    
 }
+
 
 #footer{
     background-image: url(images/loupe-1.jpg);
